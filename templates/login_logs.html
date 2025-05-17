@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Logs</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Login Logs</h1>
+    <table border="1">
+        <tr><th>Username</th><th>IP</th><th>Success</th><th>Timestamp</th></tr>
+        {% for log in logs %}
+        <tr>
+            <td>{{ log.username }}</td>
+            <td>{{ log.ip }}</td>
+            <td>{{ '✅' if log.success else '❌' }}</td>
+            <td>{{ log.timestamp }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <br>
+    <a href="{{ url_for('export_logs') }}">📄 导出 CSV</a>
+
+    <h2>📊 登录趋势图</h2>
+    <canvas id="loginChart" width="800" height="400"></canvas>
+
+    <script>
+        fetch('/login_stats')
+        .then(res => res.json())
+        .then(data => {
+            const ctx = document.getElementById('loginChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.dates,
+                    datasets: [
+                        {
+                            label: '成功登录',
+                            data: data.success_counts,
+                            borderColor: 'green',
+                            fill: false
+                        },
+                        {
+                            label: '失败登录',
+                            data: data.fail_counts,
+                            borderColor: 'red',
+                            fill: false
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

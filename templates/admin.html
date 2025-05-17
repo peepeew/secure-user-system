@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head><title>Admin Panel</title></head>
+  <body>
+    <h2>Admin Panel - User List</h2>
+
+<a href="{{ url_for('login_logs') }}">
+  <button>📊 查看登录日志</button>
+</a>
+
+    <br><br>
+
+    <table border="1">
+      <tr>
+        <th>ID</th>
+        <th>Username</th>
+        <th>Role</th>
+        <th>Actions</th>
+      </tr>
+      {% for user in users %}
+      <tr>
+        <td>{{ user.id }}</td>
+        <td>{{ user.username }}</td>
+        <td>{{ user.role }}</td>
+        <td>
+            <form action="{{ url_for('delete_user', user_id=user.id) }}" method="post" style="display:inline;">
+                <button type="submit" onclick="return confirm('确定要删除 {{ user.username }} 吗？')">删除</button>
+            </form>
+            <form action="{{ url_for('edit_role', user_id=user.id) }}" method="post" style="display:inline;">
+                <button type="submit">切换角色</button>
+            </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </table>
+
+    <br>
+    <form action="{{ url_for('logout') }}" method="get">
+      <button type="submit">退出登录</button>
+    </form>
+  </body>
+</html>
