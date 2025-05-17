@@ -1,0 +1,386 @@
+2025-05-13 22:41:15,937 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 22:41:15,937 - [33mPress CTRL+C to quit[0m
+2025-05-13 22:41:15,938 -  * Restarting with stat
+2025-05-13 22:41:16,384 -  * Debugger is active!
+2025-05-13 22:41:16,386 -  * Debugger PIN: 122-317-153
+2025-05-13 22:41:36,611 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 22:41:36,611 - [33mPress CTRL+C to quit[0m
+2025-05-13 22:41:36,612 -  * Restarting with stat
+2025-05-13 22:41:37,193 -  * Debugger is active!
+2025-05-13 22:41:37,196 -  * Debugger PIN: 122-317-153
+2025-05-13 22:42:42,885 - 127.0.0.1 - - [13/May/2025 22:42:42] "GET / HTTP/1.1" 200 -
+2025-05-13 22:42:43,232 - 127.0.0.1 - - [13/May/2025 22:42:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-13 22:42:53,964 - 127.0.0.1 - - [13/May/2025 22:42:53] "GET /login HTTP/1.1" 200 -
+2025-05-13 22:42:58,971 - 127.0.0.1 - - [13/May/2025 22:42:58] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-13 22:43:03,677 - 127.0.0.1 - - [13/May/2025 22:43:03] "GET /login HTTP/1.1" 200 -
+2025-05-13 22:43:32,151 - 127.0.0.1 - - [13/May/2025 22:43:32] "GET /register HTTP/1.1" 200 -
+2025-05-13 22:43:37,342 - 123456 - LOGIN FAILED - IP: 127.0.0.1
+2025-05-13 22:43:37,342 - 127.0.0.1 - - [13/May/2025 22:43:37] "[31m[1mPOST /register HTTP/1.1[0m" 401 -
+2025-05-13 22:44:47,495 - 123456a - LOGIN FAILED - IP: 127.0.0.1
+2025-05-13 22:44:47,496 - 127.0.0.1 - - [13/May/2025 22:44:47] "[31m[1mPOST /register HTTP/1.1[0m" 401 -
+2025-05-13 22:44:52,427 - 127.0.0.1 - - [13/May/2025 22:44:52] "GET /login HTTP/1.1" 200 -
+2025-05-13 22:45:01,261 - 127.0.0.1 - - [13/May/2025 22:45:01] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-13 22:45:12,114 - 127.0.0.1 - - [13/May/2025 22:45:12] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-13 22:45:50,388 - 127.0.0.1 - - [13/May/2025 22:45:50] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-13 22:49:42,620 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 22:49:42,620 - [33mPress CTRL+C to quit[0m
+2025-05-13 22:49:42,622 -  * Restarting with stat
+2025-05-13 22:49:43,226 -  * Debugger is active!
+2025-05-13 22:49:43,229 -  * Debugger PIN: 122-317-153
+2025-05-13 22:49:54,164 - 127.0.0.1 - - [13/May/2025 22:49:54] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-05-13 22:49:54,171 - 127.0.0.1 - - [13/May/2025 22:49:54] "GET /login HTTP/1.1" 200 -
+2025-05-13 22:49:59,141 - 127.0.0.1 - - [13/May/2025 22:49:59] "POST /login HTTP/1.1" 200 -
+2025-05-13 22:54:36,955 -  * Detected change in 'C:\\Users\\Õı‘∆≈Ù\\Desktop\\2025s1\\pythonSecurityProject\\app.py', reloading
+2025-05-13 22:54:37,002 -  * Restarting with stat
+2025-05-13 22:54:37,447 -  * Debugger is active!
+2025-05-13 22:54:37,449 -  * Debugger PIN: 122-317-153
+2025-05-13 22:54:58,214 -  * Detected change in 'C:\\Users\\Õı‘∆≈Ù\\Desktop\\2025s1\\pythonSecurityProject\\app.py', reloading
+2025-05-13 22:54:58,268 -  * Restarting with stat
+2025-05-13 22:54:58,789 -  * Debugger is active!
+2025-05-13 22:54:58,791 -  * Debugger PIN: 122-317-153
+2025-05-13 22:55:23,942 -  * Detected change in 'C:\\Users\\Õı‘∆≈Ù\\Desktop\\2025s1\\pythonSecurityProject\\app.py', reloading
+2025-05-13 22:55:23,983 -  * Restarting with stat
+2025-05-13 22:55:24,446 -  * Debugger is active!
+2025-05-13 22:55:24,448 -  * Debugger PIN: 122-317-153
+2025-05-13 23:00:29,417 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 23:00:29,417 - [33mPress CTRL+C to quit[0m
+2025-05-13 23:00:29,417 -  * Restarting with stat
+2025-05-13 23:00:29,857 -  * Debugger is active!
+2025-05-13 23:00:29,857 -  * Debugger PIN: 122-317-153
+2025-05-13 23:00:33,999 - 127.0.0.1 - - [13/May/2025 23:00:33] "GET /login HTTP/1.1" 200 -
+2025-05-13 23:00:36,374 - 127.0.0.1 - - [13/May/2025 23:00:36] "GET /register HTTP/1.1" 200 -
+2025-05-13 23:00:39,982 - 127.0.0.1 - - [13/May/2025 23:00:39] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2025-05-13 23:00:45,377 - 127.0.0.1 - - [13/May/2025 23:00:45] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-05-13 23:00:45,382 - 127.0.0.1 - - [13/May/2025 23:00:45] "GET /login HTTP/1.1" 200 -
+2025-05-13 23:00:48,857 - 1234 - LOGIN FAILED - IP: 127.0.0.1
+2025-05-13 23:00:48,857 - 127.0.0.1 - - [13/May/2025 23:00:48] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-13 23:00:52,077 - 1234 - LOGIN FAILED - IP: 127.0.0.1
+2025-05-13 23:00:52,077 - 127.0.0.1 - - [13/May/2025 23:00:52] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-13 23:00:54,703 - 1234 - LOGIN FAILED - IP: 127.0.0.1
+2025-05-13 23:00:54,703 - 127.0.0.1 - - [13/May/2025 23:00:54] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-13 23:00:56,909 - 1234 - LOGIN FAILED - IP: 127.0.0.1
+2025-05-13 23:00:56,909 - 127.0.0.1 - - [13/May/2025 23:00:56] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-13 23:00:59,197 - 1234 - LOGIN FAILED - IP: 127.0.0.1
+2025-05-13 23:00:59,197 - 127.0.0.1 - - [13/May/2025 23:00:59] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-13 23:01:01,372 - 1234 - ACCOUNT LOCKED - IP: 127.0.0.1
+2025-05-13 23:01:01,372 - 127.0.0.1 - - [13/May/2025 23:01:01] "[31m[1mPOST /login HTTP/1.1[0m" 403 -
+2025-05-13 23:01:06,117 - 1234 - ACCOUNT LOCKED - IP: 127.0.0.1
+2025-05-13 23:01:06,117 - 127.0.0.1 - - [13/May/2025 23:01:06] "[31m[1mPOST /login HTTP/1.1[0m" 403 -
+2025-05-13 23:01:54,572 -  * Detected change in 'C:\\Users\\Õı‘∆≈Ù\\Desktop\\2025s1\\pythonSecurityProject\\app.py', reloading
+2025-05-13 23:01:54,613 -  * Restarting with stat
+2025-05-13 23:01:55,083 -  * Debugger is active!
+2025-05-13 23:01:55,085 -  * Debugger PIN: 122-317-153
+2025-05-14 16:38:01,752 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 16:38:01,752 - [33mPress CTRL+C to quit[0m
+2025-05-14 16:38:01,754 -  * Restarting with stat
+2025-05-14 16:38:02,275 -  * Debugger is active!
+2025-05-14 16:38:02,278 -  * Debugger PIN: 122-317-153
+2025-05-14 16:46:03,068 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 16:46:03,068 - [33mPress CTRL+C to quit[0m
+2025-05-14 16:46:03,069 -  * Restarting with stat
+2025-05-14 16:46:03,558 -  * Debugger is active!
+2025-05-14 16:46:03,560 -  * Debugger PIN: 122-317-153
+2025-05-14 16:46:44,220 - 127.0.0.1 - - [14/May/2025 16:46:44] "GET / HTTP/1.1" 200 -
+2025-05-14 16:46:44,576 - 127.0.0.1 - - [14/May/2025 16:46:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-14 16:46:47,642 - 127.0.0.1 - - [14/May/2025 16:46:47] "GET /login HTTP/1.1" 200 -
+2025-05-14 16:47:00,117 - admin - LOGIN FAILED - IP: 127.0.0.1
+2025-05-14 16:47:00,117 - 127.0.0.1 - - [14/May/2025 16:47:00] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-14 16:48:34,480 - 127.0.0.1 - - [14/May/2025 16:48:34] "GET /login HTTP/1.1" 200 -
+2025-05-14 16:48:41,176 - admin - LOGIN FAILED - IP: 127.0.0.1
+2025-05-14 16:48:41,176 - 127.0.0.1 - - [14/May/2025 16:48:41] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-14 16:49:46,005 - 127.0.0.1 - - [14/May/2025 16:49:46] "GET /register HTTP/1.1" 200 -
+2025-05-14 16:49:56,670 - 127.0.0.1 - - [14/May/2025 16:49:56] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-05-14 16:49:56,674 - 127.0.0.1 - - [14/May/2025 16:49:56] "GET /login HTTP/1.1" 200 -
+2025-05-14 16:50:04,008 - mountainwang321 - LOGIN SUCCESS - IP: 127.0.0.1
+2025-05-14 16:50:04,008 - 127.0.0.1 - - [14/May/2025 16:50:04] "POST /login HTTP/1.1" 200 -
+2025-05-14 16:50:06,266 - 127.0.0.1 - - [14/May/2025 16:50:06] "GET /login HTTP/1.1" 200 -
+2025-05-14 16:50:21,380 - 127.0.0.1 - - [14/May/2025 16:50:21] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2025-05-14 16:50:26,592 - 127.0.0.1 - - [14/May/2025 16:50:26] "GET /login HTTP/1.1" 200 -
+2025-05-14 16:50:33,641 - admin - LOGIN FAILED - IP: 127.0.0.1
+2025-05-14 16:50:33,642 - 127.0.0.1 - - [14/May/2025 16:50:33] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-14 16:50:58,522 - 127.0.0.1 - - [14/May/2025 16:50:58] "[31m[1mGET /admin HTTP/1.1[0m" 401 -
+2025-05-14 16:53:45,414 -  * Detected change in 'C:\\Users\\Õı‘∆≈Ù\\Desktop\\2025s1\\pythonSecurityProject\\app.py', reloading
+2025-05-14 16:53:45,484 -  * Restarting with stat
+2025-05-14 16:53:45,967 -  * Debugger is active!
+2025-05-14 16:53:45,969 -  * Debugger PIN: 122-317-153
+2025-05-14 16:53:55,667 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 16:53:55,667 - [33mPress CTRL+C to quit[0m
+2025-05-14 16:53:55,669 -  * Restarting with stat
+2025-05-14 16:53:56,150 -  * Debugger is active!
+2025-05-14 16:53:56,152 -  * Debugger PIN: 122-317-153
+2025-05-14 16:54:05,840 - 127.0.0.1 - - [14/May/2025 16:54:05] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-05-14 16:54:05,949 - 127.0.0.1 - - [14/May/2025 16:54:05] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-14 16:54:05,950 - 127.0.0.1 - - [14/May/2025 16:54:05] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-14 16:54:06,200 - 127.0.0.1 - - [14/May/2025 16:54:06] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=NfDXqDAIoN9oywwdciIG HTTP/1.1" 200 -
+2025-05-14 16:54:06,201 - 127.0.0.1 - - [14/May/2025 16:54:06] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-14 16:54:06,211 - 127.0.0.1 - - [14/May/2025 16:54:06] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-14 16:54:16,016 -  * Detected change in 'C:\\Users\\Õı‘∆≈Ù\\Desktop\\2025s1\\pythonSecurityProject\\app.py', reloading
+2025-05-14 16:54:16,066 -  * Restarting with stat
+2025-05-14 16:54:16,525 -  * Debugger is active!
+2025-05-14 16:54:16,527 -  * Debugger PIN: 122-317-153
+2025-05-14 16:55:01,057 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 16:55:01,057 - [33mPress CTRL+C to quit[0m
+2025-05-14 16:55:01,058 -  * Restarting with stat
+2025-05-14 16:55:01,539 -  * Debugger is active!
+2025-05-14 16:55:01,541 -  * Debugger PIN: 122-317-153
+2025-05-14 16:55:04,760 - 127.0.0.1 - - [14/May/2025 16:55:04] "GET /login HTTP/1.1" 200 -
+2025-05-14 16:55:11,537 - mountainwang321 - LOGIN SUCCESS - IP: 127.0.0.1
+2025-05-14 16:55:11,537 - 127.0.0.1 - - [14/May/2025 16:55:11] "POST /login HTTP/1.1" 200 -
+2025-05-14 16:55:28,290 - 127.0.0.1 - - [14/May/2025 16:55:28] "GET /login HTTP/1.1" 200 -
+2025-05-14 16:55:43,886 - admin - LOGIN FAILED - IP: 127.0.0.1
+2025-05-14 16:55:43,886 - 127.0.0.1 - - [14/May/2025 16:55:43] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-14 16:56:58,770 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 16:56:58,770 - [33mPress CTRL+C to quit[0m
+2025-05-14 16:56:58,771 -  * Restarting with stat
+2025-05-14 16:56:59,273 -  * Debugger is active!
+2025-05-14 16:56:59,275 -  * Debugger PIN: 122-317-153
+2025-05-14 16:57:02,233 - admin123 - LOGIN FAILED - IP: 127.0.0.1
+2025-05-14 16:57:02,234 - 127.0.0.1 - - [14/May/2025 16:57:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-14 16:58:35,749 - admin123 - LOGIN SUCCESS - IP: 127.0.0.1
+2025-05-14 16:58:35,750 - 127.0.0.1 - - [14/May/2025 16:58:35] "POST /login HTTP/1.1" 200 -
+2025-05-14 16:58:47,931 - 127.0.0.1 - - [14/May/2025 16:58:47] "[31m[1mGET /admin HTTP/1.1[0m" 401 -
+2025-05-14 17:37:30,835 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 17:37:30,835 - [33mPress CTRL+C to quit[0m
+2025-05-14 17:37:30,837 -  * Restarting with stat
+2025-05-14 17:37:31,300 -  * Debugger is active!
+2025-05-14 17:37:31,303 -  * Debugger PIN: 122-317-153
+2025-05-14 17:37:37,611 - 127.0.0.1 - - [14/May/2025 17:37:37] "[31m[1mGET /admin HTTP/1.1[0m" 401 -
+2025-05-14 17:37:42,484 - 127.0.0.1 - - [14/May/2025 17:37:42] "GET /login HTTP/1.1" 200 -
+2025-05-14 17:37:48,367 - mountainwang321 - LOGIN SUCCESS - IP: 127.0.0.1
+2025-05-14 17:37:48,368 - 127.0.0.1 - - [14/May/2025 17:37:48] "POST /login HTTP/1.1" 200 -
+2025-05-14 17:39:18,275 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 17:39:18,275 - [33mPress CTRL+C to quit[0m
+2025-05-14 17:39:18,285 -  * Restarting with stat
+2025-05-14 17:41:14,276 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 17:41:14,277 - [33mPress CTRL+C to quit[0m
+2025-05-14 17:41:14,277 -  * Restarting with stat
+2025-05-14 17:41:14,735 -  * Debugger is active!
+2025-05-14 17:41:14,737 -  * Debugger PIN: 122-317-153
+2025-05-14 17:41:19,384 - 127.0.0.1 - - [14/May/2025 17:41:19] "GET /login HTTP/1.1" 200 -
+2025-05-14 17:41:22,778 - 127.0.0.1 - - [14/May/2025 17:41:22] "GET /login HTTP/1.1" 200 -
+2025-05-14 17:41:28,302 - mountainwang321 - LOGIN SUCCESS - IP: 127.0.0.1
+2025-05-14 17:41:28,302 - 127.0.0.1 - - [14/May/2025 17:41:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-14 17:41:28,310 - 127.0.0.1 - - [14/May/2025 17:41:28] "GET /profile HTTP/1.1" 200 -
+2025-05-14 17:41:47,577 - admin123 - LOGIN FAILED - IP: 127.0.0.1
+2025-05-14 17:41:47,577 - 127.0.0.1 - - [14/May/2025 17:41:47] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-14 17:41:51,633 - 127.0.0.1 - - [14/May/2025 17:41:51] "GET /login HTTP/1.1" 200 -
+2025-05-14 17:42:06,249 - admin123 - LOGIN SUCCESS - IP: 127.0.0.1
+2025-05-14 17:42:06,249 - 127.0.0.1 - - [14/May/2025 17:42:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-14 17:42:06,255 - 127.0.0.1 - - [14/May/2025 17:42:06] "GET /admin HTTP/1.1" 200 -
+2025-05-14 17:45:09,220 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 17:45:09,220 - [33mPress CTRL+C to quit[0m
+2025-05-14 17:45:09,223 -  * Restarting with stat
+2025-05-14 17:45:24,682 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 17:45:24,682 - [33mPress CTRL+C to quit[0m
+2025-05-14 17:45:24,683 -  * Restarting with stat
+2025-05-14 17:45:25,125 -  * Debugger is active!
+2025-05-14 17:45:25,127 -  * Debugger PIN: 122-317-153
+2025-05-14 17:45:28,247 - 127.0.0.1 - - [14/May/2025 17:45:28] "GET /login HTTP/1.1" 200 -
+2025-05-14 17:45:29,747 - 127.0.0.1 - - [14/May/2025 17:45:29] "GET /login HTTP/1.1" 200 -
+2025-05-14 17:45:35,700 - mountainwang321 - LOGIN SUCCESS - IP: 127.0.0.1
+2025-05-14 17:45:35,700 - 127.0.0.1 - - [14/May/2025 17:45:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-14 17:45:35,709 - 127.0.0.1 - - [14/May/2025 17:45:35] "GET /profile HTTP/1.1" 200 -
+2025-05-14 17:46:55,004 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 17:46:55,005 - [33mPress CTRL+C to quit[0m
+2025-05-14 17:46:55,006 -  * Restarting with stat
+2025-05-14 17:46:55,499 -  * Debugger is active!
+2025-05-14 17:46:55,501 -  * Debugger PIN: 122-317-153
+2025-05-14 17:46:57,490 - mountainwang321 - LOGIN SUCCESS - IP: 127.0.0.1
+2025-05-14 17:46:57,491 - 127.0.0.1 - - [14/May/2025 17:46:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-14 17:46:57,503 - 127.0.0.1 - - [14/May/2025 17:46:57] "GET /profile HTTP/1.1" 200 -
+2025-05-14 17:46:59,190 - 127.0.0.1 - - [14/May/2025 17:46:59] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-14 17:46:59,195 - 127.0.0.1 - - [14/May/2025 17:46:59] "GET /login HTTP/1.1" 200 -
+2025-05-14 17:47:10,481 - 127.0.0.1 - - [14/May/2025 17:47:10] "[33mGET /login/pofile HTTP/1.1[0m" 404 -
+2025-05-14 17:47:16,755 - 127.0.0.1 - - [14/May/2025 17:47:16] "[33mGET /pofile HTTP/1.1[0m" 404 -
+2025-05-14 17:47:18,436 - 127.0.0.1 - - [14/May/2025 17:47:18] "[33mGET /pofile HTTP/1.1[0m" 404 -
+2025-05-14 17:47:27,108 - 127.0.0.1 - - [14/May/2025 17:47:27] "[31m[1mGET /profile HTTP/1.1[0m" 401 -
+2025-05-14 18:06:11,224 -  * Detected change in 'C:\\Users\\Õı‘∆≈Ù\\Desktop\\2025s1\\pythonSecurityProject\\app.py', reloading
+2025-05-14 18:06:11,276 -  * Restarting with stat
+2025-05-14 18:06:11,840 -  * Debugger is active!
+2025-05-14 18:06:11,842 -  * Debugger PIN: 122-317-153
+2025-05-14 18:07:13,223 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 18:07:13,223 - [33mPress CTRL+C to quit[0m
+2025-05-14 18:07:13,225 -  * Restarting with stat
+2025-05-14 18:07:13,705 -  * Debugger is active!
+2025-05-14 18:07:13,707 -  * Debugger PIN: 122-317-153
+2025-05-14 18:07:22,429 - admin - LOGIN FAILED - IP: 127.0.0.1
+2025-05-14 18:07:22,429 - 127.0.0.1 - - [14/May/2025 18:07:22] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-14 18:07:29,030 - admin123 - LOGIN SUCCESS - IP: 127.0.0.1
+2025-05-14 18:07:29,030 - 127.0.0.1 - - [14/May/2025 18:07:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-14 18:07:29,046 - 127.0.0.1 - - [14/May/2025 18:07:29] "GET /admin HTTP/1.1" 200 -
+2025-05-14 18:07:33,289 - 127.0.0.1 - - [14/May/2025 18:07:33] "[32mPOST /delete_user/1 HTTP/1.1[0m" 302 -
+2025-05-14 18:07:33,293 - 127.0.0.1 - - [14/May/2025 18:07:33] "GET /admin HTTP/1.1" 200 -
+2025-05-14 18:07:47,546 - 127.0.0.1 - - [14/May/2025 18:07:47] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-14 18:07:47,554 - 127.0.0.1 - - [14/May/2025 18:07:47] "GET /login HTTP/1.1" 200 -
+2025-05-14 18:13:47,473 -  * Detected change in 'C:\\Users\\Õı‘∆≈Ù\\Desktop\\2025s1\\pythonSecurityProject\\app.py', reloading
+2025-05-14 18:13:47,516 -  * Restarting with stat
+2025-05-14 18:13:48,023 -  * Debugger is active!
+2025-05-14 18:13:48,026 -  * Debugger PIN: 122-317-153
+2025-05-14 18:15:09,856 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 18:15:09,856 - [33mPress CTRL+C to quit[0m
+2025-05-14 18:15:09,858 -  * Restarting with stat
+2025-05-14 18:15:10,326 -  * Debugger is active!
+2025-05-14 18:15:10,328 -  * Debugger PIN: 122-317-153
+2025-05-14 18:15:13,402 - 127.0.0.1 - - [14/May/2025 18:15:13] "GET /login HTTP/1.1" 200 -
+2025-05-14 18:15:18,192 - admin123 - LOGIN SUCCESS - IP: 127.0.0.1
+2025-05-14 18:15:18,192 - 127.0.0.1 - - [14/May/2025 18:15:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-14 18:15:18,209 - 127.0.0.1 - - [14/May/2025 18:15:18] "GET /admin HTTP/1.1" 200 -
+2025-05-14 18:15:21,584 - 127.0.0.1 - - [14/May/2025 18:15:21] "[32mPOST /edit_role/2 HTTP/1.1[0m" 302 -
+2025-05-14 18:15:21,591 - 127.0.0.1 - - [14/May/2025 18:15:21] "GET /admin HTTP/1.1" 200 -
+2025-05-14 18:15:22,670 - 127.0.0.1 - - [14/May/2025 18:15:22] "[32mPOST /edit_role/2 HTTP/1.1[0m" 302 -
+2025-05-14 18:15:22,676 - 127.0.0.1 - - [14/May/2025 18:15:22] "GET /admin HTTP/1.1" 200 -
+2025-05-14 18:15:24,536 - 127.0.0.1 - - [14/May/2025 18:15:24] "[32mPOST /delete_user/2 HTTP/1.1[0m" 302 -
+2025-05-14 18:15:24,541 - 127.0.0.1 - - [14/May/2025 18:15:24] "GET /admin HTTP/1.1" 200 -
+2025-05-14 18:15:32,164 - 127.0.0.1 - - [14/May/2025 18:15:32] "[32mPOST /edit_role/3 HTTP/1.1[0m" 302 -
+2025-05-14 18:15:32,167 - 127.0.0.1 - - [14/May/2025 18:15:32] "GET /admin HTTP/1.1" 200 -
+2025-05-14 18:15:43,028 - 127.0.0.1 - - [14/May/2025 18:15:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-14 18:15:43,034 - 127.0.0.1 - - [14/May/2025 18:15:43] "GET /login HTTP/1.1" 200 -
+2025-05-14 19:03:17,984 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 19:03:17,987 - [33mPress CTRL+C to quit[0m
+2025-05-14 19:03:17,989 -  * Restarting with stat
+2025-05-14 19:03:18,570 -  * Debugger is active!
+2025-05-14 19:03:18,573 -  * Debugger PIN: 122-317-153
+2025-05-14 19:03:34,083 - admin - LOGIN FAILED - IP: 127.0.0.1
+2025-05-14 19:03:34,084 - 127.0.0.1 - - [14/May/2025 19:03:34] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-14 19:03:56,951 - admin123 - LOGIN FAILED - IP: 127.0.0.1
+2025-05-14 19:03:56,952 - 127.0.0.1 - - [14/May/2025 19:03:56] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-14 19:05:20,673 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 19:05:20,673 - [33mPress CTRL+C to quit[0m
+2025-05-14 19:05:20,676 -  * Restarting with stat
+2025-05-14 19:05:21,318 -  * Debugger is active!
+2025-05-14 19:05:21,321 -  * Debugger PIN: 122-317-153
+2025-05-14 19:05:24,395 - admin123 - LOGIN FAILED - IP: 127.0.0.1
+2025-05-14 19:05:24,396 - 127.0.0.1 - - [14/May/2025 19:05:24] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-14 19:05:29,235 - admin123 - LOGIN SUCCESS - IP: 127.0.0.1
+2025-05-14 19:05:29,264 - 127.0.0.1 - - [14/May/2025 19:05:29] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-05-14 19:05:29,485 - 127.0.0.1 - - [14/May/2025 19:05:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-14 19:05:29,485 - 127.0.0.1 - - [14/May/2025 19:05:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-14 19:05:29,524 - 127.0.0.1 - - [14/May/2025 19:05:29] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=oMttOekJ7pfCLTZO2OcZ HTTP/1.1" 200 -
+2025-05-14 19:05:29,526 - 127.0.0.1 - - [14/May/2025 19:05:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-14 19:05:29,547 - 127.0.0.1 - - [14/May/2025 19:05:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-14 19:08:54,722 -  * Detected change in 'C:\\Users\\Õı‘∆≈Ù\\Desktop\\2025s1\\pythonSecurityProject\\app.py', reloading
+2025-05-14 19:08:54,790 -  * Restarting with stat
+2025-05-14 19:12:43,900 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-14 19:12:43,901 - [33mPress CTRL+C to quit[0m
+2025-05-14 19:12:43,902 -  * Restarting with stat
+2025-05-14 19:12:44,494 -  * Debugger is active!
+2025-05-14 19:12:44,497 -  * Debugger PIN: 122-317-153
+2025-05-14 19:12:49,455 - 127.0.0.1 - - [14/May/2025 19:12:49] "GET /login HTTP/1.1" 200 -
+2025-05-14 19:12:55,030 - admin123 - LOGIN SUCCESS - IP: 127.0.0.1
+2025-05-14 19:12:55,030 - 127.0.0.1 - - [14/May/2025 19:12:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-14 19:12:55,045 - 127.0.0.1 - - [14/May/2025 19:12:55] "GET /admin HTTP/1.1" 200 -
+2025-05-14 19:13:24,340 - admin123 - LOGIN FAILED - IP: 127.0.0.1
+2025-05-14 19:13:24,340 - 127.0.0.1 - - [14/May/2025 19:13:24] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-05-14 19:13:31,528 - 127.0.0.1 - - [14/May/2025 19:13:31] "GET /login HTTP/1.1" 200 -
+2025-05-14 19:13:42,246 - 127.0.0.1 - - [14/May/2025 19:13:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-14 19:13:42,258 - 127.0.0.1 - - [14/May/2025 19:13:42] "GET /login HTTP/1.1" 200 -
+2025-05-14 19:13:44,876 - 127.0.0.1 - - [14/May/2025 19:13:44] "[31m[1mGET /admin HTTP/1.1[0m" 401 -
+2025-05-17 19:46:43,636 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:46:43,637 - [33mPress CTRL+C to quit[0m
+2025-05-17 19:46:43,639 -  * Restarting with stat
+2025-05-17 19:46:44,174 -  * Debugger is active!
+2025-05-17 19:46:44,179 -  * Debugger PIN: 122-317-153
+2025-05-17 19:46:50,065 - 127.0.0.1 - - [17/May/2025 19:46:50] "[31m[1mGET /admin HTTP/1.1[0m" 401 -
+2025-05-17 19:46:50,486 - 127.0.0.1 - - [17/May/2025 19:46:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 19:46:54,461 - 127.0.0.1 - - [17/May/2025 19:46:54] "GET /login HTTP/1.1" 200 -
+2025-05-17 19:47:01,092 - admin123 - LOGIN SUCCESS - IP: 127.0.0.1
+2025-05-17 19:47:01,093 - 127.0.0.1 - - [17/May/2025 19:47:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-17 19:47:01,130 - 127.0.0.1 - - [17/May/2025 19:47:01] "GET /admin HTTP/1.1" 200 -
+2025-05-17 19:47:10,316 - 127.0.0.1 - - [17/May/2025 19:47:10] "[32mPOST /edit_role/10 HTTP/1.1[0m" 302 -
+2025-05-17 19:47:10,323 - 127.0.0.1 - - [17/May/2025 19:47:10] "GET /admin HTTP/1.1" 200 -
+2025-05-17 19:47:13,958 - 127.0.0.1 - - [17/May/2025 19:47:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-17 19:47:13,960 - 127.0.0.1 - - [17/May/2025 19:47:13] "GET /login HTTP/1.1" 200 -
+2025-05-17 19:48:40,059 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:48:40,059 - [33mPress CTRL+C to quit[0m
+2025-05-17 19:48:40,061 -  * Restarting with stat
+2025-05-17 19:48:40,567 -  * Debugger is active!
+2025-05-17 19:48:40,570 -  * Debugger PIN: 122-317-153
+2025-05-17 19:48:43,000 - 127.0.0.1 - - [17/May/2025 19:48:43] "GET /login HTTP/1.1" 200 -
+2025-05-17 19:48:47,016 - admin123 - LOGIN SUCCESS - IP: 127.0.0.1
+2025-05-17 19:48:47,016 - 127.0.0.1 - - [17/May/2025 19:48:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-17 19:48:47,051 - 127.0.0.1 - - [17/May/2025 19:48:47] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+2025-05-17 19:48:47,243 - 127.0.0.1 - - [17/May/2025 19:48:47] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-17 19:48:47,246 - 127.0.0.1 - - [17/May/2025 19:48:47] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-17 19:48:47,277 - 127.0.0.1 - - [17/May/2025 19:48:47] "GET /admin?__debugger__=yes&cmd=resource&f=console.png&s=ssQcCGhlYozjdySLsKHf HTTP/1.1" 200 -
+2025-05-17 19:48:47,279 - 127.0.0.1 - - [17/May/2025 19:48:47] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-17 19:48:47,295 - 127.0.0.1 - - [17/May/2025 19:48:47] "[36mGET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-17 19:53:18,605 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:53:18,605 - [33mPress CTRL+C to quit[0m
+2025-05-17 19:53:18,606 -  * Restarting with stat
+2025-05-17 19:53:19,072 -  * Debugger is active!
+2025-05-17 19:53:19,074 -  * Debugger PIN: 122-317-153
+2025-05-17 19:53:24,397 - 127.0.0.1 - - [17/May/2025 19:53:24] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+2025-05-17 19:53:24,571 - 127.0.0.1 - - [17/May/2025 19:53:24] "[36mGET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 19:53:24,573 - 127.0.0.1 - - [17/May/2025 19:53:24] "[36mGET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:53:24,755 - 127.0.0.1 - - [17/May/2025 19:53:24] "GET /admin?__debugger__=yes&cmd=resource&f=console.png&s=IkQueHxDMMGWFRNKrnBU HTTP/1.1" 200 -
+2025-05-17 19:53:24,758 - 127.0.0.1 - - [17/May/2025 19:53:24] "[36mGET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-17 19:53:29,986 - 127.0.0.1 - - [17/May/2025 19:53:29] "GET / HTTP/1.1" 200 -
+2025-05-17 19:53:33,646 - 127.0.0.1 - - [17/May/2025 19:53:33] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+2025-05-17 19:53:33,659 - 127.0.0.1 - - [17/May/2025 19:53:33] "[36mGET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 19:53:33,662 - 127.0.0.1 - - [17/May/2025 19:53:33] "[36mGET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 19:53:33,921 - 127.0.0.1 - - [17/May/2025 19:53:33] "[36mGET /admin?__debugger__=yes&cmd=resource&f=console.png&s=IkQueHxDMMGWFRNKrnBU HTTP/1.1[0m" 304 -
+2025-05-17 19:53:33,923 - 127.0.0.1 - - [17/May/2025 19:53:33] "[36mGET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-17 19:54:01,386 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:54:01,386 - [33mPress CTRL+C to quit[0m
+2025-05-17 19:54:01,389 -  * Restarting with stat
+2025-05-17 19:55:13,321 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:55:13,321 - [33mPress CTRL+C to quit[0m
+2025-05-17 19:55:13,323 -  * Restarting with stat
+2025-05-17 19:55:15,914 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 19:55:15,914 - [33mPress CTRL+C to quit[0m
+2025-05-17 19:55:15,916 -  * Restarting with stat
+2025-05-17 19:55:16,391 -  * Debugger is active!
+2025-05-17 19:55:16,393 -  * Debugger PIN: 122-317-153
+2025-05-17 19:55:17,993 - 127.0.0.1 - - [17/May/2025 19:55:17] "GET /admin HTTP/1.1" 200 -
+2025-05-17 19:55:20,089 - 127.0.0.1 - - [17/May/2025 19:55:20] "GET /login_logs HTTP/1.1" 200 -
+2025-05-17 19:55:20,238 - 127.0.0.1 - - [17/May/2025 19:55:20] "[35m[1mGET /login_stats HTTP/1.1[0m" 500 -
+2025-05-17 19:55:24,562 - 127.0.0.1 - - [17/May/2025 19:55:24] "[35m[1mGET /export_logs HTTP/1.1[0m" 500 -
+2025-05-17 19:55:24,724 - 127.0.0.1 - - [17/May/2025 19:55:24] "GET /export_logs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-17 19:55:24,726 - 127.0.0.1 - - [17/May/2025 19:55:24] "GET /export_logs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-17 19:55:24,737 - 127.0.0.1 - - [17/May/2025 19:55:24] "GET /export_logs?__debugger__=yes&cmd=resource&f=console.png&s=jdFkaUYn9afcZJfj6nQY HTTP/1.1" 200 -
+2025-05-17 19:55:24,738 - 127.0.0.1 - - [17/May/2025 19:55:24] "GET /export_logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-17 19:55:24,769 - 127.0.0.1 - - [17/May/2025 19:55:24] "[36mGET /export_logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-17 19:56:15,687 -  * Detected change in 'C:\\Users\\Õı‘∆≈Ù\\Desktop\\2025s1\\pythonSecurityProject\\app.py', reloading
+2025-05-17 19:56:15,732 -  * Restarting with stat
+2025-05-17 20:10:50,564 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 20:10:50,564 - [33mPress CTRL+C to quit[0m
+2025-05-17 20:10:50,565 -  * Restarting with stat
+2025-05-17 20:10:51,129 -  * Debugger is active!
+2025-05-17 20:10:51,131 -  * Debugger PIN: 122-317-153
+2025-05-17 20:10:55,220 - 127.0.0.1 - - [17/May/2025 20:10:55] "GET /export_logs HTTP/1.1" 200 -
+2025-05-17 20:10:58,771 - 127.0.0.1 - - [17/May/2025 20:10:58] "GET /export_logs HTTP/1.1" 200 -
+2025-05-17 20:27:06,604 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 20:27:06,604 - [33mPress CTRL+C to quit[0m
+2025-05-17 20:27:06,606 -  * Restarting with stat
+2025-05-17 20:27:07,109 -  * Debugger is active!
+2025-05-17 20:27:07,111 -  * Debugger PIN: 122-317-153
+2025-05-17 20:27:10,785 - 127.0.0.1 - - [17/May/2025 20:27:10] "GET / HTTP/1.1" 200 -
+2025-05-17 20:27:31,619 - 127.0.0.1 - - [17/May/2025 20:27:31] "GET /api/status HTTP/1.1" 200 -
